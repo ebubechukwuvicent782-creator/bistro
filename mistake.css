@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#hero{
+    height: 400px;
+    background-color: black;
+    background-image: url(assets/d.jpg);
+    background-position: center;
+    background-size: contain;
+    color: white;
+    padding: 5% 10%;
+}
+#hero h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+#hero button:first-of-type{
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+#hero button{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#hero button:last-of-type{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+#about img{
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5%;
+    align-items: center;
+}
+#about div{
+    width: 47%;
+}
+#about div:first-of-type{
+    background-color: green;
+}
+#about div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#about button{
+    width: fit-content;
+    padding: 10px 15px;
+    background-color:  yellow;
+    border: none;
+    border-radius: 8px;
+}
+.cards img{
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#product .container{
+    display: flex;
+    justify-content: space-between;
+}
+#product h1{
+    text-align: center;
+}
+.cards{
+    background-color: aliceblue;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    padding: 0%;
+}
+#ball{
+    background-color: black;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+#ball span{
+    font-size: 40px;
+    color: orange;
+}
+#ball>div{
+    display: flex;
+    margin-top: 20px;
+}
+#ball>div div:first-of-type{
+    border-right: 2px solid orange;
+}
+#ball p{
+    margin-top: 10px;
+}
+#ball>div div:last-of-type{
+    border-left: 2px solid orange;
+}
+#review{
+    padding: 5%;
+    text-align: center;
+}
+#review p{
+    margin-bottom: 10px;
+}
+#review i{
+    color: orange;
+}
+@media(max-width: 500px){
+    #hero{
+        padding: 15% 10%;
+    }
+    #about{
+        flex-direction: column;
+    }
+    #about div{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #popular .cards-container{
+        flex-direction: column;
+    }
+    #ball>div{
+        flex-direction: column;
+}
+#ball>div div:first-of-type{
+    border-right: none;
+    border-bottom: 2px solid orange;
+}
+#ball>div div:last-of-type{
+    border-left:none;
+    border-top:2px solid orange;
+}
+#ball>div div{
+    padding: 30px;
+}

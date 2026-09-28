@@ -1,0 +1,206 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    padding: 5%;
+}
+main{
+    background-color: rgb(252, 239, 228);
+}
+.a{
+    height: 400px;
+    background-color: white;
+    background-image: url(assets/f.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(235, 232, 232);
+    padding-top: 15%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+.a h1{
+    margin-bottom: 25px;
+    font-size: 70px;
+    font-weight: 900;
+}
+#time{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+}
+#time hr{
+    height: 5px;
+    background-color: brown;
+    width: 90%;
+    position: absolute;
+    top: 85px;
+    z-index: -2;
+}
+#time p:first-of-type{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+#time p:first-of-type i{
+    color: white;
+    font-size: 25px;
+}
+.row img{
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    align-items: center;
+}
+.row h2{
+    margin-bottom: 30px;
+}
+.row div{
+    width: 47%;
+}
+.boss{
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.men{
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-between; */
+    /* padding: 5%; */
+    /* align-items: center; */
+}
+.men h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+} 
+.one{   
+    display: block;
+    /* justify-content: space-between; */
+    gap: 30px;
+    /* padding: 5%; */
+    align-items: center;
+    /* width: 100%; */
+    border-right: 3px solid rgb(219, 217, 217);
+}
+.one h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.info{
+    display: flex;
+    gap: 30px;
+    background-color: rgb(240, 236, 230);
+}
+.mae img{
+     height: 380px;
+    width: 270px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.omo{
+    flex: 1;
+}
+.omo h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.omo p{
+    list-style: 1.7;
+    font-size: 15px;
+}
+.social{
+    display: flex;
+    gap: 25px;
+    margin-top: 35px;
+    font-size: 25px;
+}
+.two{
+    width: 50%;
+}
+.pics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.two img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.contact{
+    display: flex;
+    gap: 70px;
+    padding: 50px 12%;
+}
+.visit{
+    width: 40%;
+    border: 1px solid #ddd;
+    padding-right: 50px;
+}
+h2{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+.info span{
+    font-size: 25px;
+}
+.info p{
+    margin: 0;
+    color: grey;
+    line-height: 1.6;
+}
+.message{
+    width: 60%;
+}
+.inputs{
+    display: flex;
+    gap: 25px;
+}
+input, textarea{
+    border: 1px solid white;
+    padding: 18px;
+    font-size: 16px;
+    /* outline: none; */
+    border-radius: 10px;
+}
+input{
+    width: 50%;
+}
+textarea{
+    width: 100%;
+    height: 175px;
+    margin-top: 25px;
+    resize: none;
+}
+button{
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 25px;
+    background-color: rgba(249, 163, 3, 0.904);
+    color: white;
+    border: none;
+    padding: 18px 45px;
+    font-size: 16px;
+}

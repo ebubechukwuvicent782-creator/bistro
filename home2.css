@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#a {
+    height: 400px;
+    background-color: white;
+    background-image: url(assets/j.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 25%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+#a h1{
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 900;
+}
+#categories{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 10px;
+}
+#categories button{
+    background-color: white;
+    color: black;
+    padding: 5px 9px;
+    border-radius: 5px;
+    margin-top: 30px;
+    align-content: center;
+    height: 35px;
+    width: 100px;
+}
+#categories button:first-of-type{
+    background-color: yellow;
+    border-radius: 20px;
+}
+h2{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+#menu{
+    padding: 20px 5%;
+}
+#menu img{
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#menu p, span, h3 {
+    padding: 0 15px;
+}
+#menu .cards-container{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: rgb(238, 231, 222);
+}
+#menu .cards{
+    width: 31%;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+#menu i{
+    color: orange;
+}
+#menu .price{
+    display: flex;
+    justify-content: space-between;
+}
+#chef{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    background-color:  transparent;
+}
+.b{
+    padding:  0 30px;
+    margin-top: 0%;
+}
+.b h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.b h3{
+    font-size: 24px;
+}
+.b p{
+    line-height: 1.6;
+}
+.price-2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.b button{
+    background-color: rgb(217, 143, 6);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.food{
+    width: 100%;
+    border-radius: 20px;
+}
+@media (max-width){
+   #menu .cards-container{
+    display: flex;
+    flex-direction: column;
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+   }
+   #menu .cards{
+    width: 100%;
+   }
+   #chef{
+    display: flex;
+    flex-direction: column;
+   }
+   #
+}
