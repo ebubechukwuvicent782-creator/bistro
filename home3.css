@@ -60,6 +60,7 @@ main{
 }
 .row{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 5%;
     align-items: center;
@@ -203,4 +204,13 @@ button{
     border: none;
     padding: 18px 45px;
     font-size: 16px;
+}
+@media (max-width: 500px;) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .row div{
+        width: 100%;
+    }
 }
